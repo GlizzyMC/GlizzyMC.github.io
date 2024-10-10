@@ -59,7 +59,7 @@
             <li><strong>Name:</strong> Minuka Mandinu</li>
             <li><strong>Phone Number:</strong> (+94) 717 800 713</li>
             <li><strong>Emai:</strong> minukamandinu@gmail.com</li>
-            <li><a href="https://github.com/GlizzyMC"><font color = "blue"><strong>Github</strong></font></a></li>
+            <li><a href="https://github.com/GlizzyMC"><font color = "blue">Github</font></a></li>
         </ul>
     </div>
 </body>
