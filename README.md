@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -62,7 +61,6 @@
             <li><strong>Emai:</strong> minukamandinu@gmail.com</li>
             <li><a href="https://github.com/GlizzyMC"><font color = "blue"><strong>Github</strong></font></a></li>
         </ul>
-        </div>
     </div>
 </body>
 </html>
