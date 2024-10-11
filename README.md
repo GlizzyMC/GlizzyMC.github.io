@@ -24,10 +24,12 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
             width: 90%; /* Responsive width */
             max-width: 600px; /* Limit for larger screens */
+            box-sizing: border-box; /* Include padding in width calculation */
         }
 
         h1 {
             color: #f0f0f0;
+            margin-bottom: 20px; /* Space below the heading */
         }
 
         ul {
@@ -39,13 +41,19 @@
         li {
             background-color: #444;
             margin: 10px 0;
-            padding: 10px;
+            padding: 15px; /* Increased padding for better touch area and aesthetics */
             border-radius: 5px;
-            text-align: left; /* Align text to the left */
+            text-align: left; /* Keep text aligned to the left */
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
+        }
+
+        li:hover {
+            background-color: #555; /* Slightly change background on hover */
         }
 
         a {
             text-decoration: none;
+            color: white; /* Ensure link text is white */
         }
 
         .personal-details p {
@@ -69,7 +77,7 @@
             <li><strong>Name:</strong> Minuka Mandinu</li>
             <li><strong>Phone Number:</strong> (+94) 717 800 713</li>
             <li><strong>Email:</strong> minukamandinu@gmail.com</li>
-            <li><a href="https://github.com/GlizzyMC"><font color="white">Github</font></a></li>
+            <li><a href="https://github.com/GlizzyMC">Github</a></li>
         </ul>
     </div>
 </body>
