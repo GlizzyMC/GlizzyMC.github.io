@@ -25,6 +25,7 @@
             width: 90%; /* Responsive width */
             max-width: 600px; /* Limit for larger screens */
             box-sizing: border-box; /* Include padding in width calculation */
+            margin: 0 auto; /* Center container */
         }
 
         h1 {
@@ -36,6 +37,9 @@
             list-style-type: none;
             padding: 0;
             margin: 0; /* Remove margin to prevent extra space */
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items */
         }
 
         li {
@@ -43,8 +47,10 @@
             margin: 10px 0;
             padding: 15px; /* Increased padding for better touch area and aesthetics */
             border-radius: 5px;
-            text-align: left; /* Keep text aligned to the left */
+            text-align: center; /* Center align text within list items */
             transition: background-color 0.3s; /* Smooth transition for hover effect */
+            width: 100%; /* Make list items full width */
+            max-width: 500px; /* Limit width of list items */
         }
 
         li:hover {
