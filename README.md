@@ -40,7 +40,6 @@
         ul {
             list-style-type: none;
             padding: 0; /* Remove padding */
-            margin: 0; /* Remove margin */
             display: flex;
             flex-direction: column; /* Stack items vertically */
             align-items: center; /* Center items */
@@ -65,6 +64,18 @@
             text-decoration: none;
             color: white; /* White link color */
         }
-
-        @media (max-width: 600px) {
-            .
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><strong>Who am I?</strong></h1>
+        <ul>
+            <li>Thank you for scanning this QR code and wasting your time.</li>
+            <li><strong>Name:</strong> Minuka Mandinu</li>
+            <li><strong>Phone Number:</strong> (+94) 717 800 713</li>
+            <li><strong>Email:</strong> minukamandinu@gmail.com</li>
+            <li><a href="https://github.com/GlizzyMC">Github</a></li>
+        </ul>
+    </div>
+</body>
+</html>
