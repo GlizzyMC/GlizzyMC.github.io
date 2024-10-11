@@ -8,7 +8,7 @@
         * {
             margin: 0; /* Remove default margin */
             padding: 0; /* Remove default padding */
-            box-sizing: border-box; /* Include padding and border in element's total width and height */
+            box-sizing: border-box; /* Include padding and border in total width/height */
         }
 
         body {
@@ -16,7 +16,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh; /* Ensures it fills the viewport */
+            min-height: 100vh; /* Fill the viewport height */
             background-color: #1a1a1a;
             color: white;
         }
@@ -29,7 +29,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
             width: 90%; /* Responsive width */
             max-width: 600px; /* Limit for larger screens */
-            margin: 0 auto; /* Center container */
+            margin: 0; /* Center the container with no extra margins */
         }
 
         h1 {
@@ -39,7 +39,8 @@
 
         ul {
             list-style-type: none;
-            padding: 0;
+            padding: 0; /* Remove padding */
+            margin: 0; /* Remove margin */
             display: flex;
             flex-direction: column; /* Stack items vertically */
             align-items: center; /* Center items */
@@ -47,47 +48,23 @@
 
         li {
             background-color: #444;
-            margin: 10px 0;
-            padding: 15px; /* Increased padding for better touch area and aesthetics */
+            margin: 10px 0; /* Space between list items */
+            padding: 15px; /* Padding for list items */
             border-radius: 5px;
-            text-align: center; /* Center align text within list items */
-            transition: background-color 0.3s; /* Smooth transition for hover effect */
-            width: 100%; /* Make list items full width */
+            text-align: center; /* Center text within list items */
+            width: 100%; /* Full width of list items */
             max-width: 500px; /* Limit width of list items */
+            transition: background-color 0.3s; /* Smooth transition for hover effect */
         }
 
         li:hover {
-            background-color: #555; /* Slightly change background on hover */
+            background-color: #555; /* Change background on hover */
         }
 
         a {
             text-decoration: none;
-            color: white; /* Ensure link text is white */
-        }
-
-        .personal-details p {
-            margin: 5px 0;
-            font-size: 1.1em;
+            color: white; /* White link color */
         }
 
         @media (max-width: 600px) {
-            .container {
-                width: 100%; /* Full width on small screens */
-                padding: 20px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1><strong>Who am I?</strong></h1>
-        <ul>
-            <li>Thank you for scanning this QR code and wasting your time.</li>
-            <li><strong>Name:</strong> Minuka Mandinu</li>
-            <li><strong>Phone Number:</strong> (+94) 717 800 713</li>
-            <li><strong>Email:</strong> minukamandinu@gmail.com</li>
-            <li><a href="https://github.com/GlizzyMC">Github</a></li>
-        </ul>
-    </div>
-</body>
-</html>
+            .
