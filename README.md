@@ -4,10 +4,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <style>
+        /* Reset styles for all elements */
+        * {
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+        }
+
         body {
             font-family: Arial, sans-serif;
-            margin: 0; /* Remove body margin */
-            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -24,8 +29,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
             width: 90%; /* Responsive width */
             max-width: 600px; /* Limit for larger screens */
-            box-sizing: border-box; /* Include padding in width calculation */
-            margin: 0; /* Center container */
+            margin: 0 auto; /* Center container */
         }
 
         h1 {
@@ -36,7 +40,6 @@
         ul {
             list-style-type: none;
             padding: 0;
-            margin: 0; /* Remove margin to prevent extra space */
             display: flex;
             flex-direction: column; /* Stack items vertically */
             align-items: center; /* Center items */
