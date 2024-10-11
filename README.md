@@ -12,7 +12,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh; /* Changed to min-height to allow scrolling if needed */
+            min-height: 100vh; /* Ensures it fills the viewport */
             background-color: #1a1a1a;
             color: white;
         }
@@ -23,8 +23,8 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            width: 90%; /* Make it responsive */
-            max-width: 600px; /* Limit the width for larger screens */
+            width: 90%; /* Responsive width */
+            max-width: 600px; /* Limit for larger screens */
         }
 
         h1 {
@@ -34,6 +34,7 @@
         ul {
             list-style-type: none;
             padding: 0;
+            margin: 0; /* Remove margin to prevent extra space */
         }
 
         li {
@@ -41,6 +42,7 @@
             margin: 10px 0;
             padding: 10px;
             border-radius: 5px;
+            text-align: left; /* Align text to the left */
         }
 
         a {
@@ -52,10 +54,9 @@
             font-size: 1.1em;
         }
 
-        /* Ensure container takes full width on small screens */
         @media (max-width: 600px) {
             .container {
-                width: 100%;
+                width: 100%; /* Full width on small screens */
                 padding: 20px;
             }
         }
