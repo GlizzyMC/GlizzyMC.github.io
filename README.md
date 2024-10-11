@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
+            margin: 0; /* Remove body margin */
             padding: 0;
             display: flex;
             justify-content: center;
@@ -25,7 +25,7 @@
             width: 90%; /* Responsive width */
             max-width: 600px; /* Limit for larger screens */
             box-sizing: border-box; /* Include padding in width calculation */
-            margin: 0 auto; /* Center container */
+            margin: 0; /* Center container */
         }
 
         h1 {
