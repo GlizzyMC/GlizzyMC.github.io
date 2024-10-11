@@ -6,9 +6,9 @@
     <style>
         /* Reset styles for all elements */
         * {
-            margin: 0; /* Remove default margin */
-            padding: 0; /* Remove default padding */
-            box-sizing: border-box; /* Include padding and border in total width/height */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         body {
@@ -16,7 +16,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh; /* Fill the viewport height */
+            min-height: 100vh;
             background-color: #1a1a1a;
             color: white;
         }
@@ -27,42 +27,41 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            width: 90%; /* Responsive width */
-            max-width: 600px; /* Limit for larger screens */
-            margin: 0; /* Center the container with no extra margins */
+            width: 90%;
+            max-width: 600px;
         }
 
         h1 {
             color: #f0f0f0;
-            margin-bottom: 20px; /* Space below the heading */
+            margin-bottom: 20px;
         }
 
         ul {
-            list-style-type: none;
-            padding: 0; /* Remove padding */
+            list-style: none; /* Remove default list styling */
+            padding: 0;
             display: flex;
-            flex-direction: column; /* Stack items vertically */
-            align-items: center; /* Center items */
+            flex-direction: column;
+            align-items: center;
         }
 
         li {
             background-color: #444;
-            margin: 10px 0; /* Space between list items */
-            padding: 15px; /* Padding for list items */
+            margin: 10px 0;
+            padding: 15px;
             border-radius: 5px;
-            text-align: center; /* Center text within list items */
-            width: 100%; /* Full width of list items */
-            max-width: 500px; /* Limit width of list items */
-            transition: background-color 0.3s; /* Smooth transition for hover effect */
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+            transition: background-color 0.3s;
         }
 
         li:hover {
-            background-color: #555; /* Change background on hover */
+            background-color: #555;
         }
 
         a {
             text-decoration: none;
-            color: white; /* White link color */
+            color: white;
         }
     </style>
 </head>
