@@ -68,13 +68,9 @@
 </head>
 <body>
     <div class="container">
-        <h1><strong>Who am I?</strong></h1>
+        <h1><strong>Danuja GAY!</strong></h1>
         <ul>
-            <li>Thank you for scanning this QR code and wasting your time.</li>
-            <li><strong>Name:</strong> Minuka Mandinu</li>
-            <li><strong>Phone Number:</strong> (+94) 717 800 713</li>
-            <li><strong>Email:</strong> minukamandinu@gmail.com</li>
-            <li><a href="https://github.com/GlizzyMC">Github</a></li>
+            <li>Yes you read it correctly. Danuja is gay</li>
         </ul>
     </div>
 </body>
